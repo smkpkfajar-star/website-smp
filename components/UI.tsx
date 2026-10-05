@@ -88,7 +88,7 @@ export function PageHero({
 }: {
   title: string;
   subtitle?: string;
-  breadcrumb: string;
+  breadcrumb?: string;
 }) {
   return (
     <section className="relative overflow-hidden bg-primary-900">

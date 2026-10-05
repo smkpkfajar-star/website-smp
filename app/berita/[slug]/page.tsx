@@ -25,7 +25,7 @@ export default async function DetailBerita({ params }: Props) {
 
   return (
     <>
-      <PageHero title={b.judul} />
+      <PageHero title={b.judul} breadcrumb={""} />
 
       <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
         <div className="mb-6 flex items-center gap-3 text-sm text-ink-soft">
